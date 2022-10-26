@@ -33,6 +33,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 #video {
   position: fixed;
   top: 50%;
