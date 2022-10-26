@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -12,8 +14,8 @@ html {
 }
 
 body {
-  font-family: sans-serif;
-  font-size: 1rem;
+  font-family: 'Roboto Mono', monospace;
+  font-size: medium;
   overflow: auto;
   overflow-x: hidden;
   -ms-overflow-style: none;
@@ -21,6 +23,14 @@ body {
 }
 body::-webkit-scrollbar {
   display: none;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
 }
 
 #video {
@@ -39,6 +49,11 @@ body::-webkit-scrollbar {
   padding: 50px;
   background-color: white;
   border: 1px solid black;
+}
+
+.added {
+  font-size: small;
+  text-align: center;
 }
 
 .container {
@@ -70,7 +85,7 @@ body::-webkit-scrollbar {
   transition: all 2s ease;
 }
 
-.timeline h3 {
+.timeline h2 {
   color: white;
 }
 
